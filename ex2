@@ -1,0 +1,26 @@
+fun main() {
+  
+    println("//---Matemáticos---//")
+    println("5+5=${5+5}")
+    println("357-288=${357-288}")
+    println("458*5=${458*5}")
+    println("1050/7=${1050/7}")
+    var Num = 10
+    var Num2 = 20
+    println("")
+   
+    println("//---Operadores Condicionais---//")
+    
+    var peso: Int = 55
+    var objetivo: Int = 65
+    
+    println()
+    println("Avaliação projeto verão:")
+    if (peso<= objetivo){ 
+       println("Bora campeão")
+     }else { 
+     println("Aí vc me quebra")
+    }
+    
+}
+
