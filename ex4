@@ -1,0 +1,35 @@
+fun main() {
+    val frutas = arrayListOf<String>("maça","Kiwi","morango")
+    frutas.add("manga")
+    frutas[0] = "uva"
+    frutas.remove("kiwi")
+    frutas.removeAt(1)
+    println(frutas)
+    println(frutas.size)
+    println(frutas.isEmpty())
+    println(frutas.last())
+    
+    val carros = arrayListOf<String>("Supra","BMW 320i","Jetta")
+    carros.add("Civic")
+    carros.add("Opala")
+    carros.add("Porsche 718")
+    carros.add("Saveiro")
+    carros.add("Maverick Coyote")
+    carros.add("Dodge Challenger")
+    carros.add("Porsche Cayenne")
+    carros.remove("Saveiro")
+    carros.remove("Opala")
+    carros.remove("Civic")
+    carros[0] = "Supra"
+    carros[1] = "BMW 320i"
+    carros[2] = "Jetta"
+    carros[3] = "Porsche Cayenne"
+    carros[4] = "Dodge Challenger"
+    carros[5] = "Porsche 718"
+    carros[6] = "Maverick Coyote"
+    
+    
+    
+    
+}
+
