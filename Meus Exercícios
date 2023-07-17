@@ -1,0 +1,175 @@
+fun main() {
+   
+        //exercicio1//
+     println("//---exercicio 1---//")
+   
+    println("   Ola mundo")
+   
+   println()
+    //exercicio 2//
+  println("//---exercicio 2---//")
+  println()
+  
+  val num = 365
+   
+    println("O número informado foi" to num)
+println()
+ 
+
+    //exercicio 3//
+    println("//---exercicio 3---//")
+    println()
+    var num1 = 693
+    var num2 = 425
+    
+    print("693 + 425= ")
+    print(num1+num2)
+    println()
+    
+    //exercicio 4// 
+   println()
+    println(" //---exercicio 4---//")
+    println()
+    
+    var  n1 = 10
+    var  n2 = 9
+    var  n3 = 5
+    var  n4 = 10
+     
+    print("Sua média será de = ")
+    println((n1+n2+n3+n4)/4)
+    println()
+    
+ 
+    //exercicio 5//
+    
+    println("//---Exercicio 5---//")
+    println()
+    
+    var metros = 5
+    
+    print("$metros metro são ")
+    print(metros*100)
+    print(" centimetros")
+    println()
+    
+    
+    
+    //exercicio 6 //
+    println()
+    println("//---exercicio 6---//")
+    
+    var area = 50
+    var raio = 2
+    
+    print("Então sua área será de ")
+    println(area/raio)
+    println()
+
+    
+    //exercicio 7//
+    
+    println()
+    println("//---Exercicio 7---//")
+    
+    var cima = 20
+    var lado = 5
+    
+    print("A área será de ")
+    println(cima*lado) 
+    print("vezes o dobro será de ")
+    println(cima*lado*2)
+
+//exercicio 8//
+
+println()
+println("//---Exercicio 8---//")
+
+var hora = 45
+var trabalha = 185
+
+print("Total recebido no mês ")
+println(hora*trabalha)
+
+
+  //exercicio 9//
+println()
+println("//---Exercicio 9---//")
+
+var Fahrenheit = 86
+//var Celsius// 
+
+  print("A temperatura será de ")  
+  print(5*(Fahrenheit-32)/9)
+  print(" Celsius")  
+  println()
+
+   //exercicio 10//
+  println()
+  println("//---Exercicio 10---//")
+
+  var Celsius = 30
+    
+  print("Convertendo fica ") 
+  print((Celsius* 9/5)+32)
+  print(" Fahrenheit")
+  println()
+
+  //exercicio 11//
+  
+  println()
+  println("//---Exercicio 11---//")
+  
+  var nu1= 499
+  var nu2 = 5094
+  var real = 52
+  
+  print("$nu1 x 2 + 2547= ")  
+  print((nu1*2)+2547)
+  println()
+  
+  print("$nu1 x 3 + $real= ")
+  print((nu1*3)+ real)
+  println()
+  
+  print("$real x $real x $real= ")
+  print(real*real*real)
+  println()
+  
+  //exercicio 12//
+  println()
+  println("//---Exercicio 12 ---//")
+  
+  var menA = 1.68
+  var menP = 54.5
+  
+  print("seu IMC será de ")
+  print((72.7* menA)-58)
+  println()
+  
+  //exercicio 13//
+  println()
+  println("//---Exercicio 13---//")
+  
+  var menAL = 1.68
+  var menPE = 54.5
+  
+  print("Men:")  
+  print("Seu IMC será de ")
+  print((72.7* menAL)-58)
+  println()
+  
+  var girlA = 1.60
+  var girlP = 50.0
+  
+  print("Girl: ")  
+  print("Seu IMC será de ")
+  print((62.1* girlA)-47.7)
+  println()
+  
+ 
+  
+
+
+}
+
