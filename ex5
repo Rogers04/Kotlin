@@ -1,0 +1,59 @@
+
+fun main() {
+   /*val pessoa1: Pessoa = Pessoa("Rogers",3785)
+   
+   println("Pessoa 1: ${pessoa1.nome}")
+   println("Pessoa 1: ${pessoa1.idade}")
+   println()
+   
+   val cachorro = Cachorro()
+   cachorro.Dormir()
+   cachorro.Latir()
+   cachorro.Comer()
+   
+}*/
+
+class Pessoa(val nome: String, val idade: Int)
+
+open class Animal(){
+    open fun Dormir(){
+       println("Dormir")
+    }
+    fun Comer(){
+        println("Comeu")
+    }
+    
+}
+
+class Cachorro: Animal(){
+    override fun Dormir(){
+        super.Dormir()
+        println(" como um cão")
+        
+    }
+    fun Latir(){
+        println("Latiu")
+    }
+}
+
+
+
+open class Carro(){
+    open fun Potencia(){
+        println("2.0 Turbo")
+   }
+    fun Preco(){
+    println("Muito caro")
+}
+}
+
+class Jetta: Carro(){
+    override fun Potencia(){
+        super.Potencia()
+            println("Ótima escolha")
+        
+    }
+  }
+}
+
+
