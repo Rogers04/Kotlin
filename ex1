@@ -1,0 +1,39 @@
+fun main() {
+  /**
+    var Nome = "Rogers"
+    val Classe: String = ("Moeda")
+    
+    print("Nome:")
+    println(Nome)
+    
+    println()
+    println("Classe: $Classe")
+    
+    println()
+    println("Nome: $Nome | Classe: $Classe
+    **/  
+    
+    println("//---Dialogo---//")
+    println()
+    println("<Fernando>")
+    print("Fala meu consagrado, como você vai?")
+    println()
+    println("$Nome")
+    print("Estou na paz e você?")
+    println()
+    println("<Fernando>")
+    print("Estou bem tmb")   
+    println("$Nome")
+    print("Você já viu a nova padaria que abriu na esquina")
+    println()
+    println("<Fernando>")
+    print("Eu não vi meu mano. Ela é boa?")
+    println()
+    println("$Nome")
+    print("Mano ela é a melhor padaria que eu já fui, e olha que que eu já fui em duas em")
+    println()
+    println("<Fernando>")
+    print("Caracas mano! Você é o cara")
+    
+    
+
