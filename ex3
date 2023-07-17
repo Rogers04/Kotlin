@@ -1,0 +1,51 @@
+fun main() {
+  
+/*
+var coracoes = 5
+var vidas = 3
+
+
+if(coracoes <= 0 && vidas <= 0){
+println("Você vai ir pra tela de Game Over")
+}else{
+println("O jogo será reiniciado")
+}
+if(coracoes <= 0 || vidas <= 0){
+println("Você vai ir pra tela de Game Over")
+}else{
+println("O jogo será reiniciado")
+}
+*/
+    
+  var peso = 53.0
+	var altura = 1.70
+
+var imc = peso/(altura*altura)
+
+if(imc < 18.5 && imc > 1){
+println("IMC: $imc")
+println("Você está abaixo do peso")
+
+}else if(imc >= 18.5 && imc < 25){
+println("IMC: $imc")
+println("Você está no peso normal")
+
+}else if(imc >= 25 && imc < 30){
+println("IMC: $imc")
+println("Você com sobrepeso")
+
+}else if (imc > 30){
+println("IMC: $imc")
+println("Você está obeso")
+
+}else {
+println("Invalido")
+	
+	}
+}
+
+
+
+
+
+
