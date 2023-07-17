@@ -1,0 +1,22 @@
+fun main() {
+    var contador = 0
+    while (contador <=5 ){
+        println("Ao infinito e além")
+        contador++
+    }
+    var i= 1
+    while (i<=5){
+    println("Line $1")
+    i++
+    }
+    for (numero in 1..100){
+        println(fizzbuzz(numero))
+    }
+ }
+fun fizzbuzz(numero:Int) = when{
+    numero % 15===0 -> "FizzBuzz"
+    numero % 10===0 -> "Fizz"
+    numero % 5===0 -> "Buzz"
+    else ->"$numero"
+
+}
